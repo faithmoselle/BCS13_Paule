@@ -1,7 +1,4 @@
-"""
-Name: Faith Moselle O. Paule
-Program Code: BCS45
-
+# bank_account_encapsulation.py
 Learning and demonstrating Object-Oriented Programming (OOP) concepts, specifically:
 1. Encapsulation - The fundamental principle of bundling data (attributes) and methods (functions) within a class, hiding internal details from outside access
 2. Access Modifiers - Understanding how Python implements:
