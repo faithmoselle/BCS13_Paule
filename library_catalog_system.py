@@ -213,16 +213,16 @@ def main():
                     )
                     # Validate index range
                     if booknum < 0 or booknum >= len(library):
-                        print("❌ Invalid book number. Please try again.")
+                        print("Invalid book number. Please try again.")
                         continue
                     
                     book = library[booknum]
                     book.borrow_book()  # Attempt to borrow
                     
                 except ValueError:
-                    print("❌ Invalid input. Please enter a valid number.")
+                    print("Invalid input. Please enter a valid number.")
             else:
-                print("❌ No books available to borrow.")
+                print("No books available to borrow.")
 
         # Choice 3: Return a book
         elif choice == "3":
@@ -236,16 +236,16 @@ def main():
                     )
                     # Validate index range
                     if booknum < 0 or booknum >= len(library):
-                        print("❌ Invalid book number. Please try again.")
+                        print("Invalid book number. Please try again.")
                         continue
                     
                     book = library[booknum]
                     book.return_book()  # Attempt to return
                     
                 except ValueError:
-                    print("❌ Invalid input. Please enter a valid number.")
+                    print("Invalid input. Please enter a valid number.")
             else:
-                print("❌ No books available to return.")
+                print("No books available to return.")
 
         # Choice 4: Display available books
         elif choice == "4":
@@ -259,7 +259,7 @@ def main():
 
         # Invalid menu choice
         else:
-            print("❌ Invalid choice. Please enter a number between 1 and 5.")
+            print("Invalid choice. Please enter a number between 1 and 5.")
 
 
 # Standard Python idiom - runs main() only if script is executed directly
