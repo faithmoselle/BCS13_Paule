@@ -1,5 +1,5 @@
 '''
-Name: Faith Moselle O. Paule
+AUTHOR: Faith Paule
 Program Code: BCS13
 
 Implementing Object-Oriented Programming (OOP) concepts in Python, specifically focusing on:
