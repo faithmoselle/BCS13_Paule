@@ -1,6 +1,7 @@
 """
-Name: Faith Moselle O. Paule
-Program Code: BCS45
+AUTHOR: Faith Moselle O. Paule
+PROGRAM CODE: BCS13
+DATE: S.Y. 2022-2023
 
 Learning and demonstrating Object-Oriented Programming (OOP) concepts, specifically:
 1. Encapsulation - The fundamental principle of bundling data (attributes) and methods (functions) within a class, hiding internal details from outside access
